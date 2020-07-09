@@ -1,7 +1,6 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
 }
 
 .bg-red {
@@ -10,4 +9,15 @@
 
 .card-body a {
   text-decoration: none;
+}
+
+.h-15 {
+  height: 75px;
+}
+
+.country {
+  color: #f72210;
+  position: relative;
+  text-decoration: none;
+  bottom: 20px;
 }
