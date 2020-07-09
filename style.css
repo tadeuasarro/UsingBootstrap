@@ -4,3 +4,10 @@
   box-sizing: border-box;
 }
 
+.bg-red {
+  background-color: #f72210;
+}
+
+.card-body a {
+  text-decoration: none;
+}
