@@ -12,59 +12,55 @@
 
 <body>
 
-    <header class="container-fluid">
+    <header>
 
-        <ul class="navbar navbar-dark bg-red">
+        <ul class="navbar navbar-dark bg-red h-15 pr-1">
             <li class="navbar-brand">
                 <h1>Newsweek</h1>
             </li>
             <li class="navbar-text">
                 <a class="nav-link d-inline" href="#"><i class="fas fa-user"></i></a>
-                <button class="btn btn-warning d-inline" type="button">SUBSCRIBE ></button>
-                <!--Toggle bar here-->
-                <p class="d-inline">
-                    <button class="btn text-white" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                <button class="btn btn-warning d-inline rounded-pill" type="button">SUBSCRIBE ></button>
+
+                <div class="dropdown d-inline">
+                    <button class="btn dropdown text-white" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <i class="fas fa-bars"></i>
                     </button>
-                </p>
+                    <div class="dropdown-menu-right dropdown-menu pt-0 mt-4" aria-labelledby="dropdownMenuButton">
+
+                        <div class="input-group mb-2">
+                            <input type="text" class="form-control border-0 pl-3" id="inlineFormInputGroup" placeholder="Search">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text bg-white border-0"><i class="fas fa-search"></i></div>
+                            </div>
+                        </div>
+
+                        <a class="dropdown-item text-dark pl-3" href="#">U.S. <i class="fas fa-chevron-right"></i></a>
+                        <a class="dropdown-item text-dark pl-3" href="#">World</a>
+                        <a class="dropdown-item text-dark pl-3" href="#">Business</a>
+                        <a class="dropdown-item text-dark pl-3" href="#">Tec & Science</a>
+                        <a class="dropdown-item text-dark pl-3" href="#">Culture</a>
+                        <a class="dropdown-item text-dark pl-3" href="#">Newsgeek</a>
+                        <a class="dropdown-item text-dark pl-3" href="#">Sports</a>
+                        <a class="dropdown-item text-dark pl-3" href="#">The Debate</a>
+                        <a class="dropdown-item text-dark pl-3" href="#">Vantage</a>
+                        <a class="dropdown-item text-dark pl-3" href="#">Weather</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item text-dark pl-3" href="#">Trending</a>
+                        <a class="dropdown-item text-muted pl-3" href="#">Donald Trump</a>
+                        <a class="dropdown-item text-muted pl-3" href="#">Joe Biden</a>
+                        <a class="dropdown-item text-muted pl-3" href="#">China</a>
+                        <a class="dropdown-item text-muted pl-3" href="#">Coronavirus</a>
+                        <a class="dropdown-item text-muted pl-3" href="#">2020 Election</a>
+                    </div>
+                </div>
+
             </li>
         </ul>
 
     </header>
 
     <main class="container-fluid bg-red">
-        <p>test</p>
-        <div class="collapse w-25 float-right" id="collapseExample">
-            <div class="card card-body">
-                <div class="list-group border-bottom-light">
-                    <form class="list-group-item border-0 row p-0">
-                        <div class="form-group d-inline-block col-9">
-                            <input placeholder="Search" class="form-control border-0 p-0">
-                        </div>
-                        <button class="btn btn-primary bg-white text-dark border-0 d-inline col-1"><i class="fas fa-search"></i></button>
-                    </form>
-                    <a class="list-group-item border-0 text-dark h5 p-0" href="#">U.S.</a>
-                    <a class="list-group-item border-0 text-dark h5 p-0" href="#">World</a>
-                    <a class="list-group-item border-0 text-dark h5 p-0" href="#">Business</a>
-                    <a class="list-group-item border-0 text-dark h5 p-0" href="#">Tech & Science</a>
-                    <a class="list-group-item border-0 text-dark h5 p-0" href="#">Culture</a>
-                    <a class="list-group-item border-0 text-dark h5 p-0" href="#">Newsgeek</a>
-                    <a class="list-group-item border-0 text-dark h5 p-0" href="#">Sports</a>
-                    <a class="list-group-item border-0 text-dark h5 p-0" href="#">Health</a>
-                    <a class="list-group-item border-0 text-dark h5 p-0" href="#">The Debate</a>
-                    <a class="list-group-item border-0 text-dark h5 p-0" href="#">Vantage</a>
-                    <a class="list-group-item border-0 text-dark h5 p-0" href="#">Weather</a>
-                </div>
-                <div class="list-group pt-3">
-                    <a href="#" class="list-group-item border-0 text-dark  h5 p-0">Trending</a>
-                    <a href="#" class="list-group-item border-0 text-muted  h5 p-0">Donald Trump</a>
-                    <a href="#" class="list-group-item border-0 text-muted  h5 p-0">Joe Biden</a>
-                    <a href="#" class="list-group-item border-0 text-muted  h5 p-0">China</a>
-                    <a href="#" class="list-group-item border-0 text-muted  h5 p-0">Coronavirus</a>
-                    <a href="#" class="list-group-item border-0 text-muted  h5 p-0">2020 Election</a>
-                </div>
-            </div>
-        </div>
 
     </main>
 
