@@ -15,9 +15,9 @@
   height: 75px;
 }
 
-.country {
-  color: #f72210;
-  position: relative;
-  text-decoration: none;
-  bottom: 20px;
+.img-anchor {
+  background-color: white;
+  position: absolute;
+  padding: 1% 2%;
+  bottom: 0;
 }
