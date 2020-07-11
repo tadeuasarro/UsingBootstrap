@@ -83,5 +83,28 @@
 }
 
 .mark {
-  width: 15vw;
+  width: 95px;
 }
+
+.top1,
+.top2 {
+  width: 170px;
+  height: 230px;
+}
+
+.top2 {
+  position: absolute;
+  z-index: 2;
+  left: 310px;
+  top: 40px;
+}
+
+.top1 {
+  left: 230px;
+  top: 25px;
+}
+
+.two-img {
+  height: 350px;
+}
+
