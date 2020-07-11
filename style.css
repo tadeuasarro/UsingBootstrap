@@ -51,3 +51,33 @@
   margin-left: 50%;
   margin-top: -15px;
 }
+
+.newsweek-div img {
+  width: 30px;
+  height: 30px;
+}
+
+.newsweek-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.maga {
+  font-size: 1.1rem;
+  padding: 5px 10px;
+  font-weight: 900;
+}
+
+.one {
+  height: 26px;
+  width: 60px;
+}
+
+.two {
+  height: 40px;
+}
+
+.three {
+  width: 90px;
+}
