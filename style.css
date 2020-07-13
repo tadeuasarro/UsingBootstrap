@@ -94,36 +94,33 @@ body {
   width: 95px;
 }
 
-.top1,
-.top2 {
-  width: 170px;
-  height: 230px;
-}
-
-.top2 {
-  position: absolute;
-  z-index: 2;
-  left: 310px;
-  top: 40px;
-}
-
-.top1 {
-  left: 230px;
-  top: 25px;
-}
-
-.two-img {
-  height: 350px;
-}
-
 .subscription-image {
   width: 33%;
   align-self: center;
 }
 
 .edited-align-bottom {
-  flex-direction: column;
-  display: flex;
-  justify-content: end;
   align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: absolute;
+  z-index: 2;
+}
+
+.text-md {
+  font-size: 1.2rem;
+}
+
+.edited-text {
+  position: relative;
+  z-index: -1;
+}
+
+.nav-pos {
+  bottom: 10px;
+}
+
+.newsweek-logo {
+  width: 270px;
 }
