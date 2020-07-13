@@ -9,9 +9,10 @@
     <title>Newsweek-Bootstrap</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="queries.css">
 </head>
 
-<body>
+<body class="bg-main">
 
     <header>
 
@@ -1038,17 +1039,16 @@
         <!-- SUBSCRIPTION & NEWSLETTER -->
         <div class="pt-3 bg-white container-fluid">
 
-            <div class="text-secondary position-relative pb-5 h-100">
+            <div class="text-secondary position-relative pb-5 h-100 ">
                 <h6 class="text-danger font-weight-bolder">Subscribe</h6>
 
-                <div class="card bg-light text-white text-center">
+                <div class="card bg-light text-white text-center edited-container-flex">
                     <img class="card-img subscription-image mb-5 pt-3 position-relative" src="./assets/font/img/in-good-company.png" alt="Card image">
-                   
                     <div class="card-img-overlay align-bottom edited-align-bottom ">
                         <h5 class="card-title text-dark pb-3 text-md "><b>In depth stories you don't see elsewhere about topics you want to read!</b></h5>
                         <p class="card-text text-secondary align-bottom w-50 pb-5 d-block edited-text">All access + weekly delivery. Choose a membership that's perfect for you!</p>
-                       </div>
-                      <div class="container pb-3"><a href="#" class="btn bg-red w-20 text-white">Subscribe ></a></div> 
+                        <div class="container pb-3"><a href="#" class="btn bg-red w-20 text-white">Subscribe ></a></div>
+                    </div>
                 </div>
             </div>
 
@@ -1068,7 +1068,7 @@
                             <div class="form-group">
                               <input type="email" class="form-control w-100" id="exampleInputPassword1" placeholder="Email adress">
                             </div>
-                            <button type="submit" class="btn bg-red w-100">Submit</button>
+                            <button type="submit" class="btn bg-red text-white w-100">FREE SIGN UP ></button>
                         </form>
                     </div>
 
@@ -1077,28 +1077,53 @@
             </div>
 
         </div>
-         
-        <!--NEWSWEEK-->
-        <div class="pt-1 bg-white container-fluid">
-         <div class="border-top border-bottom"> 
-             <img src="assets/font/img/Newsweek-Logo.jpg" alt="Newsweek-Logo" class="newsweek-logo">
-            <p class="pl-3 text-secondary">© 2020 Newsweek</p>
-         <nav class="nav pl-2 position-relative nav-pos">
-            
-               <a href="#" class="nav-item nav-link p-1"><img src="./assets/font/img/facebook-img.png" alt="facebook-img"></a>
-                <a href="#" class="nav-item nav-link p-1"> <img src="./assets/font/img/twitter-icon.png" alt="twitter-icon"></a>
-                <a href="#" class="nav-item nav-link p-1"> <img src="./assets/font/img/instagram-img.png" alt="instagram-img"></a>
-                <a href="#" class="nav-item nav-link p-1"><img src="./assets/font/img/t-icon.png" alt="t-icon"></a>
-                <a href="#" class="nav-item nav-link p-1"><img src="./assets/font/img/in-icon.png" alt="in-icon"></a>
-            
-            </nav>
-        </div>
-</div>
-        
 
     </main>
 
-    <footer>
+    <footer class="mt-3 pb-4">
+
+        <!--NEWSWEEK-->
+        <div class="pt-1 bg-white ">
+            <div class="border-bottom">
+                <img src="assets/font/img/Newsweek-Logo.jpg" alt="Newsweek-Logo" class="newsweek-logo">
+                <p class=" ml-3 text-secondary">© 2020 Newsweek</p>
+
+                <nav class="nav pl-2 position-relative nav-pos">
+                    <a href="#" class="nav-item nav-link p-1"><img src="./assets/font/img/facebook-img.png" alt="facebook-img"></a>
+                    <a href="#" class="nav-item nav-link p-1"> <img src="./assets/font/img/twitter-icon.png" alt="twitter-icon"></a>
+                    <a href="#" class="nav-item nav-link p-1"> <img src="./assets/font/img/instagram-img.png" alt="instagram-img"></a>
+                    <a href="#" class="nav-item nav-link p-1"><img src="./assets/font/img/t-icon.png" alt="t-icon"></a>
+                    <a href="#" class="nav-item nav-link p-1"><img src="./assets/font/img/in-icon.png" alt="in-icon"></a>
+                </nav>
+            </div>
+        </div>
+
+        <div class="p-3 bg-white">
+            <div class="text-muted">
+                    <span><b>Editions: </b></span>
+                    <span>U.S. Edition</span>
+                    <span>日本</span>
+                    <span>Pakistan</span>
+                    <span>Polska</span>
+                    <span>România</span>
+            </div>
+
+            <div class="text-muted d-flex flex-wrap justify-content-between mt-3">
+                <span>About Us</span>
+                <span>Corrections</span>
+                <span>Contact Us</span>
+                <span>Editorial Guidelines</span>
+                <span>Advertise</span>
+                <span>Copyright</span>
+                <span>Terms and Conditions</span>
+                <span>Privacy Policy</span>
+                <span>Cookie Policy</span>
+                <span>Terms of Sale</span>
+                <span>Archive</span>
+                <span>Announcements</span>
+                <span>Consent Preferences</span>
+            </div>
+        </div>
 
     </footer>
 

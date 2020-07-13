@@ -1,0 +1,17 @@
+/* @768px */
+@media (min-width: 768px)
+{
+  .edited-container-flex {
+    display: flex;
+    flex-direction: row;
+    border: blue solid 1px;
+  }
+
+  .subscription-image {
+    border: solid 1px red;
+  }
+
+  .edited-align-bottom {
+    border: green solid 1px;
+  }
+}
