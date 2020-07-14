@@ -1,17 +1,34 @@
 /* @768px */
-@media (min-width: 768px)
-{
-  .edited-container-flex {
-    display: flex;
-    flex-direction: row;
-    border: blue solid 1px;
-  }
+@media (min-width: 768px) { 
+.card-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 270px;
+}
 
-  .subscription-image {
-    border: solid 1px red;
-  }
+.edited-align-bottom {
+  bottom: 0;
+  padding-right: 15px;
+}
 
-  .edited-align-bottom {
-    border: green solid 1px;
-  }
+.subscription-image {
+  bottom: 10px;
+  width: 220px;
+  left: 20px;
+}
+
+.edited-text {
+    align-self: flex-start;
+}
+
+.text-bott {
+    padding: 0;
+    text-align: start;
+}
+
+.text-md {
+  width: 60vw;
+  font-size: 20px
+}
+
 }

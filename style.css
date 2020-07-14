@@ -95,26 +95,30 @@ body {
 }
 
 .subscription-image {
-  width: 33%;
   align-self: center;
+  position: relative;
+  width: 45%;
+  z-index: 1;
 }
 
 .edited-align-bottom {
-  align-items: center;
+  bottom: 40px;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-  position: absolute;
-  z-index: 2;
+  position: relative;
+}
+.edited-text {
+  align-self: center;
+  position: relative;
 }
 
 .text-md {
-  font-size: 1.2rem;
+  position: relative;
+  z-index: 2;
 }
 
-.edited-text {
-  position: relative;
-  z-index: -1;
+.text-bott {
+  text-align: center;
 }
 
 .nav-pos {
