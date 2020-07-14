@@ -34,5 +34,14 @@
 .img-anchor {
   font-size: 10px;
 }
+ 
+.card {
+  border: none;
+}
+
+.newsletter-img {
+  height: 250px;
+  width: 200px;
+}
 
 }
