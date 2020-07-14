@@ -1,5 +1,5 @@
 /* @768px */
-@media (min-width: 768px) { 
+@media (min-width: 768px) {
 .card-div {
   display: grid;
   grid-template-columns: 1fr 1fr;
