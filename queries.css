@@ -45,3 +45,19 @@
 }
 
 }
+
+@media(min-width: 445px)
+{
+  .edited-xs-navbar-display {
+    display: flex;
+    width: 100%;
+    height: 75px;
+  }
+}
+
+@media(max-width: 444px)
+{
+  .edited-xs-navbar-display .navbar-text {
+    display: none;
+  }
+}

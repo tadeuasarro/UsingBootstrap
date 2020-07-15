@@ -7,6 +7,7 @@
     <script src="https://kit.fontawesome.com/fdaa9ad399.js" crossorigin="anonymous"></script>
     <link rel="icon" href="./assets/font/newsweek-font.png">
     <title>Newsweek-Bootstrap</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="queries.css">
@@ -14,13 +15,13 @@
 
 <body class="bg-main w-100">
 
-    <header w-100>
+    <header>
 
-        <ul class="navbar navbar-dark bg-red h-15 pr-1 mb-0 d-none d-sm-flex d-lg-none d-block d-sm-none">
-            <li class="navbar-brand">
-                <h1>Newsweek</h1>
+        <ul class="navbar navbar-dark bg-red h-15 pr-1 mb-0 d-flex d-lg-none pl-1 edited-xs-navbar-display">
+            <li class="navbar-brand d-inline text-nowrap">
+                <h1 class="font-weight-bolder">Newsweek</h1>
             </li>
-            <li class="navbar-text">
+            <li class="navbar-text text-nowrap">
                 <a class="nav-link d-inline" href="#"><i class="fas fa-user"></i></a>
                 <button class="btn btn-warning d-inline rounded-pill" type="button">SUBSCRIBE ></button>
 
@@ -63,7 +64,7 @@
             </li>
         </ul>
 
-        <div class="bg-red h-20 d-none d-lg-flex d-xl-block grid">
+        <div class="bg-red h-20 d-none d-lg-flex grid">
             <div class="d-flex flex-column justify-content-center align-items-center text-white pt-3 col-3">
                 <p class="w-100"><i class="fas fa-cloud-moon"> </i> 20ºC São Paulo, BR</p>
                 <p class="w-100">Tue, Jul 14, 2020</p>
@@ -5500,8 +5501,8 @@
                     </div>
                 </div>
     
-            </div>
-    
+        </div>
+
     </main>
 
     <footer class="mt-3 pb-4">
