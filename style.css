@@ -127,6 +127,7 @@ main {
   flex-direction: column;
   position: relative;
 }
+
 .edited-text {
   align-self: center;
   position: relative;
