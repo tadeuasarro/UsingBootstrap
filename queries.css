@@ -4,7 +4,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: 270px;
-}
+  }
 
   .edited-align-bottom {
     bottom: 0;
@@ -28,7 +28,7 @@
 
   .text-md {
     width: 60vw;
-    font-size: 20px
+    font-size: 20px;
   }
 
   .img-anchor {
@@ -53,7 +53,7 @@
   }
 }
 
-@media(max-width: 444px) {
+@media (max-width: 444px) {
   .edited-xs-navbar-display .navbar-text {
     display: none;
   }
