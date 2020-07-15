@@ -14,7 +14,7 @@ In this task we were required to create a clone of the Newsweek website using th
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/tadeuasarro/UsingBootstrap/e2e91381f2a36edfc2a324f9264194b5af7b22be/index.html)
+[Live Demo Link](https://rawcdn.githack.com/tadeuasarro/UsingBootstrap/f82a63806d95803f211b6748c157f25796ab90d0/index.html)
 
 
 ## Authors
@@ -35,7 +35,7 @@ In this task we were required to create a clone of the Newsweek website using th
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/tadeuasarro/BuildingWithResponsiveDesign/issues)
+Feel free to check the [issues page](https://github.com/tadeuasarro/UsingBootstrap/issues)
 
 ## Show your support
 
