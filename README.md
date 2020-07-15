@@ -1,6 +1,6 @@
 # Using Bootstrap
 
-This project is focused on creating a responsive website, using Bootstrap. In this project we're required to create homepage of[Newsweek](https://newsweek.com)
+This project is focused on creating a responsive website, using Bootstrap. In this project we're required to create homepage of [Newsweek](https://newsweek.com)
 
 ![screenshot](assets/font/img/screenshot.png)
 
