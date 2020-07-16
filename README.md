@@ -14,7 +14,7 @@ In this task we were required to create a clone of the Newsweek website using th
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/tadeuasarro/UsingBootstrap/19a0b238b5cd834eef54d37ac58cb945ebccbddb/index.html)
+[Live Demo Link](https://rawcdn.githack.com/tadeuasarro/UsingBootstrap/8dd45c739d68ea536ba6c41216a97f2efffbd75d/index.html)
 
 
 ## Authors
