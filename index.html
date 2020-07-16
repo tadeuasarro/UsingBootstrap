@@ -18,14 +18,15 @@
     <header>
 
         <ul class="navbar navbar-dark bg-red h-15 pr-1 mb-0 d-flex d-lg-none pl-1 edited-xs-navbar-display">
-            <li class="navbar-brand d-inline text-nowrap">
-                <h1 class="font-weight-bolder">Newsweek</h1>
+            <li class="navbar-brand d-inline text-nowrap w-33 pl-2">
+                <img class="w-100" src="./assets/font/img/newsweek-navlogo.svg" alt="Newseeek">
             </li>
-            <li class="navbar-text text-nowrap">
-                <a class="nav-link d-inline" href="#"><i class="fas fa-user"></i></a>
-                <button class="btn btn-warning d-inline rounded-pill" type="button">SUBSCRIBE ></button>
+            <li class="navbar-text hide-300px w-60 justify-content-end align-items-center">
+                <a class="nav-link d-inline d-md-none" href="#"><i class="fas fa-user"></i></a>
+                <a class="nav-link d-none d-md-inline" href="#">LOGIN</i></a>
+                <button class="btn btn-warning d-inline rounded-pill h-7 py-0 px-3 subscribe-navbtn" type="button">SUBSCRIBE ></button>
 
-                <div class="dropdown d-inline">
+                <div class="dropdown d-inline ">
                     <button class="btn dropdown text-white" type="button" id="dropdownMenuButton" data-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="false">
                         <i class="fas fa-bars"></i>
@@ -70,7 +71,7 @@
                 <p class="w-100">Tue, Jul 14, 2020</p>
             </div>
             <div class="col-6 d-flex flex-column justify-content-center align-items-center text-white">
-                <h1 class="display-2 text-white">Newsweek</h1>
+                <img src="./assets/font/img/newsweek-navlogo.svg" alt="Newseeek">
             </div>
             <div class="col-3 d-flex justify-content-around align-items-center text-white">
                 <a class="text-white font-weight-bold" href="">LOGIN</a>
@@ -78,20 +79,20 @@
             </div>
         </div>
 
-        <div class="navbar py-0 m-0 navbar-dark bg-white h-10 d-none d-lg-flex grid">
-            <div class="navbar-text d-flex align-items-center justify-content-between">
-                <a href="" class="text-body font-weight-bold mr-1 pr-1 my-1 border-right">U.S.</a>
-                <a href="" class="text-body font-weight-bold mr-1 pr-1 my-1 border-right">World</a>
-                <a href="" class="text-body font-weight-bold mr-1 pr-1 my-1 border-right">Business</a>
-                <a href="" class="text-body font-weight-bold mr-1 pr-1 my-1 border-right">Tech & Science</a>
-                <a href="" class="text-body font-weight-bold mr-1 pr-1 my-1 border-right">Culture</a>
-                <a href="" class="text-body font-weight-bold mr-1 pr-1 my-1 border-right">Newsgeek</a>
-                <a href="" class="text-body font-weight-bold mr-1 pr-1 my-1 border-right">Sports</a>
-                <a href="" class="text-body font-weight-bold mr-1 pr-1 my-1 border-right">Health</a>
-                <a href="" class="text-body font-weight-bold mr-1 pr-1 my-1 border-right">The Debate</a>
-                <a href="" class="text-body font-weight-bold mr-1 pr-1 my-1 border-right">Vantage</a>
-                <a href="" class="text-body font-weight-bold pr-1 my-1 ">Weather</a>
-                <input class="form-control border-0 form-width-edit p-0" placeholder="Search">
+        <div class="navbar py-0 m-0 navbar-dark bg-white h-10 d-none d-lg-flex p-0 m-0">
+            <div class="navbar-text text-muted d-flex justify-content-around align-items-center w-100">
+                <a href="" class="navbar-edit-size text-body font-weight-bold px-3 m-0 ">U.S.</a>|
+                <a href="" class="navbar-edit-size text-body font-weight-bold px-3 m-0 ">World</a>|
+                <a href="" class="navbar-edit-size text-body font-weight-bold px-3 m-0 ">Business</a>|
+                <a href="" class="navbar-edit-size text-body font-weight-bold px-3 m-0 ">Tech & Science</a>|
+                <a href="" class="navbar-edit-size text-body font-weight-bold px-3 m-0 ">Culture</a>|
+                <a href="" class="navbar-edit-size text-body font-weight-bold px-3 m-0 ">Newsgeek</a>|
+                <a href="" class="navbar-edit-size text-body font-weight-bold px-3 m-0 ">Sports</a>|
+                <a href="" class="navbar-edit-size text-body font-weight-bold px-3 m-0 ">Health</a>|
+                <a href="" class="navbar-edit-size text-body font-weight-bold px-3 m-0 ">The Debate</a>|
+                <a href="" class="navbar-edit-size text-body font-weight-bold px-3 m-0 ">Vantage</a>|
+                <a href="" class="navbar-edit-size text-body font-weight-bold px-3 m-0">Weather</a>
+                <input class="form-control border-0 form-width-edit px-3 m-0" placeholder="Search">
             </div>
         </div>
 
@@ -240,6 +241,9 @@
 
             <!-- OPINION -->
             <div class="bg-white mt-5 px-3">
+                <div class="navbar navbar-expand-lg pb-0 m-0">
+                    <p class="navbar-brand">OPINION</p>
+                </div>
 
                 <div class="navbar navbar-expand navbar-light border-bottom">
                     <div class="navbar-brand">
@@ -1250,6 +1254,9 @@
 
             <!-- OPINION -->
             <div class="bg-white mt-5 px-3">
+                <div class="navbar navbar-expand-lg pb-0 m-0">
+                    <p class="navbar-brand">OPINION</p>
+                </div>
 
                 <div class="navbar navbar-expand navbar-light border-bottom">
                     <div class="navbar-brand">
@@ -2341,26 +2348,24 @@
                         <div class="container-fluid p-0 m-0">
                             <h6 class="bg.light">MORE STORIES</h6>
                             <div class="media border-top pt-3 pb-3">
-                                <img src="./assets/font/img/covid-19-patients.webp" class="mr-3" alt="Sample Image">
                                 <div class="media-body">
-                                    <a href="#" class="text-dark h3">Federal Disaster Medical Teams Deployed As Texas Coronavirus Cases
-                                        Surge</a>
-                                    <p><small>Hospitalizations in Texas climbed to 9,869 on Thursday, the highest level recorded in the
-                                            state since early April.</small></p>
+                                    <img src="./assets/font/img/covid-19-patients.webp" class="mr-3 float-left" alt="Sample Image">
+                                    <a href="#" class="text-dark h3">Federal Disaster Medical Teams Deployed As Texas Coronavirus Cases Surge</a>
+                                    <p><small>Hospitalizations in Texas climbed to 9,869 on Thursday, the highest level recorded in the state since early April.</small></p>
                                 </div>
                             </div>
 
                             <div class="media border-top pt-3 pb-3">
-                                <img src="./assets/font/img/coronavirus-food.webp" class="mr-3" alt="Sample Image">
                                 <div class="media-body">
+                                    <img src="./assets/font/img/coronavirus-food.webp" class="mr-3 float-left" alt="Sample Image">
                                     <a href="#" class="text-dark h3">Coronavirus Seems to Trick Antibodies into Attacking Brain</a>
                                     <p><small>The small study involved 11 COVID-19 patients in Germany.</small></p>
                                 </div>
                             </div>
 
                             <div class="media border-top pt-3 pb-3">
-                                <img src="./assets/font/img/minneapolis-floyed-protest.webp" class="mr-3" alt="Sample Image">
                                 <div class="media-body">
+                                    <img src="./assets/font/img/minneapolis-floyed-protest.webp" class="mr-3 float-left" alt="Sample Image">
                                     <a href="#" class="text-dark h3">Minneapolis Police Want 'Duty Disability' for PTSD Over Floyd
                                         Protests</a>
                                     <p><small>Around 150 officers would be able to claim 60 percent of their average salary for 20 years
@@ -2369,8 +2374,8 @@
                             </div>
 
                             <div class="media border-top pt-3 pb-3">
-                                <img src="./assets/font/img/spotify-phones.webp" class="mr-3" alt="Sample Image">
                                 <div class="media-body">
+                                    <img src="./assets/font/img/spotify-phones.webp" class="mr-3 float-left" alt="Sample Image">
                                     <a href="#" class="text-dark h3">Is Spotify Down? Streaming App Crashing for Many Users</a>
                                     <p><small>Thousands have reported that the app for the iPhone is crashing, but there are other ways
                                             to keep streaming from Spotify.</small></p>
@@ -2378,8 +2383,8 @@
                             </div>
 
                             <div class="media border-top pt-3 pb-3">
-                                <img src="./assets/font/img/vegas-gov.webp" class="mr-3" alt="Sample Image">
                                 <div class="media-body">
+                                    <img src="./assets/font/img/vegas-gov.webp" class="mr-3 float-left" alt="Sample Image">
                                     <a href="#" class="text-dark h3">Nevada Governor Shutters Las Vegas, Reno Bars Over COVID-19
                                         Surge</a>
                                     <p><small>Gov. Steve Sisolak said half of the reopened bars in the state were not complying with
@@ -2388,8 +2393,8 @@
                             </div>
 
                             <div class="media border-top pt-3 pb-3">
-                                <img src="./assets/font/img/3million-syrians.webp" class="mr-3" alt="Sample Image">
                                 <div class="media-body">
+                                    <img src="./assets/font/img/3million-syrians.webp" class="mr-3 float-left" alt="Sample Image">
                                     <a href="#" class="text-dark h3">3 Million Syrians Will Lose Aid as First COVID-19 Case Is Reported
                                         in Idlib</a>
                                     <p><small>Twice this week a U.N. resolution which would have ensured cross-border cooperation until
@@ -2398,8 +2403,8 @@
                             </div>
 
                             <div class="media border-top pt-3 pb-3">
-                                <img src="./assets/font/img/tiktok-changes.webp" class="mr-3" alt="Sample Image">
                                 <div class="media-body">
+                                    <img src="./assets/font/img/tiktok-changes.webp" class="mr-3 float-left" alt="Sample Image">
                                     <a href="#" class="text-dark h3">TikTok May Make Changes to Distance Itself from China amid U.S.
                                         Pressure</a>
                                     <p><small>Officials from ByteDance, the Beijing-based tech startup that owns the short-form video
@@ -2408,8 +2413,8 @@
                             </div>
 
                             <div class="media border-top pt-3 pb-3">
-                                <img src="./assets/font/img/seoul-mayor-park-won-sun-may-2014.webp" class="mr-3" alt="Sample Image">
                                 <div class="media-body">
+                                    <img src="./assets/font/img/seoul-mayor-park-won.webp" class="mr-3 float-left" alt="Sample Image">
                                     <a href="#" class="text-dark h3">Seoul Mayor's Will Said 'Sorry to Everyone' Amid Sexual Harassment
                                         Probes</a>
                                     <p><small>The exact cause of the death of Seoul Mayor Park Won-sun remains under
@@ -2418,8 +2423,8 @@
                             </div>
 
                             <div class="media border-top pt-3 pb-3">
-                                <img src="./assets/font/img/who-owns-goya.webp" class="mr-3" alt="Sample Image">
                                 <div class="media-body">
+                                    <img src="./assets/font/img/who-owns-goya.webp" class="mr-3 float-left" alt="Sample Image">
                                     <a href="#" class="text-dark h3">Who Owns Goya Foods? Calls for #BoycottGoya Mount After CEO Praises
                                         Trump</a>
                                     <p><small>The pro-Trump family behind Goya Foods is worth an estimated $1.1 billion, and has the
@@ -2428,8 +2433,8 @@
                             </div>
 
                             <div class="media border-top pt-3 pb-3">
-                                <img src="./assets/font/img/sars-cov-2.webp" class="mr-3" alt="Sample Image">
                                 <div class="media-body">
+                                    <img src="./assets/font/img/sars-cov-2.webp" class="mr-3 float-left" alt="Sample Image">
                                     <a href="#" class="text-dark h3">SARS-CoV-2 Binds to Human Cells 1,000 Times Tighter Than Closest
                                         Relative</a>
                                     <p><small><q> At some point in the evolution of this virus, it seems to have picked up changes…which
@@ -2439,8 +2444,8 @@
                             </div>
 
                             <div class="media border-top pt-3 pb-3">
-                                <img src="./assets/font/img/jugdge-woman.webp" class="mr-3" alt="Sample Image">
-                                <div class="media-body">
+                                <div class="media-body border">
+                                    <img src="./assets/font/img/jugdge-woman.webp" class="mr-3 float-left" alt="Sample Image">
                                     <a href="#" class="text-dark h3">Judge 'Will Rule Against' Meghan Markle on Friends Who Defended
                                         Her: Expert</a>
                                     <p><small>The Duchess of Sussex wants a judge to rule the names of five friends who defended her in
@@ -2492,7 +2497,7 @@
 
                 <!-- OPINION -->
                 <div class="bg-white mt-0 px-3">
-    
+
                     <div class="navbar navbar-expand-lg pb-0 m-0">
                         <p class="navbar-brand">OPINION</p>
                     </div>
@@ -3467,8 +3472,8 @@
                         <div class="container-fluid p-0 m-0">
                             <h6 class="bg.light">MORE STORIES</h6>
                             <div class="media border-top pt-3 pb-3">
-                                <img src="./assets/font/img/covid-19-patients.webp" class="mr-3" alt="Sample Image">
                                 <div class="media-body">
+                                    <img src="./assets/font/img/covid-19-patients.webp" class="mr-3 float-left" alt="Sample Image">
                                     <a href="#" class="text-dark h3">Federal Disaster Medical Teams Deployed As Texas Coronavirus Cases
                                         Surge</a>
                                     <p><small>Hospitalizations in Texas climbed to 9,869 on Thursday, the highest level recorded in the
@@ -3477,16 +3482,16 @@
                             </div>
 
                             <div class="media border-top pt-3 pb-3">
-                                <img src="./assets/font/img/coronavirus-food.webp" class="mr-3" alt="Sample Image">
                                 <div class="media-body">
+                                    <img src="./assets/font/img/coronavirus-food.webp" class="mr-3 float-left" alt="Sample Image">
                                     <a href="#" class="text-dark h3">Coronavirus Seems to Trick Antibodies into Attacking Brain</a>
                                     <p><small>The small study involved 11 COVID-19 patients in Germany.</small></p>
                                 </div>
                             </div>
 
                             <div class="media border-top pt-3 pb-3">
-                                <img src="./assets/font/img/minneapolis-floyed-protest.webp" class="mr-3" alt="Sample Image">
                                 <div class="media-body">
+                                    <img src="./assets/font/img/minneapolis-floyed-protest.webp" class="mr-3 float-left" alt="Sample Image">
                                     <a href="#" class="text-dark h3">Minneapolis Police Want 'Duty Disability' for PTSD Over Floyd
                                         Protests</a>
                                     <p><small>Around 150 officers would be able to claim 60 percent of their average salary for 20 years
@@ -3495,8 +3500,8 @@
                             </div>
 
                             <div class="media border-top pt-3 pb-3">
-                                <img src="./assets/font/img/spotify-phones.webp" class="mr-3" alt="Sample Image">
                                 <div class="media-body">
+                                    <img src="./assets/font/img/spotify-phones.webp" class="mr-3 float-left" alt="Sample Image">
                                     <a href="#" class="text-dark h3">Is Spotify Down? Streaming App Crashing for Many Users</a>
                                     <p><small>Thousands have reported that the app for the iPhone is crashing, but there are other ways
                                             to keep streaming from Spotify.</small></p>
@@ -3504,8 +3509,8 @@
                             </div>
 
                             <div class="media border-top pt-3 pb-3">
-                                <img src="./assets/font/img/vegas-gov.webp" class="mr-3" alt="Sample Image">
                                 <div class="media-body">
+                                    <img src="./assets/font/img/vegas-gov.webp" class="mr-3 float-left" alt="Sample Image">
                                     <a href="#" class="text-dark h3">Nevada Governor Shutters Las Vegas, Reno Bars Over COVID-19
                                         Surge</a>
                                     <p><small>Gov. Steve Sisolak said half of the reopened bars in the state were not complying with
@@ -3514,8 +3519,8 @@
                             </div>
 
                             <div class="media border-top pt-3 pb-3">
-                                <img src="./assets/font/img/3million-syrians.webp" class="mr-3" alt="Sample Image">
                                 <div class="media-body">
+                                    <img src="./assets/font/img/3million-syrians.webp" class="mr-3 float-left" alt="Sample Image">
                                     <a href="#" class="text-dark h3">3 Million Syrians Will Lose Aid as First COVID-19 Case Is Reported
                                         in Idlib</a>
                                     <p><small>Twice this week a U.N. resolution which would have ensured cross-border cooperation until
@@ -3524,8 +3529,8 @@
                             </div>
 
                             <div class="media border-top pt-3 pb-3">
-                                <img src="./assets/font/img/tiktok-changes.webp" class="mr-3" alt="Sample Image">
                                 <div class="media-body">
+                                    <img src="./assets/font/img/tiktok-changes.webp" class="mr-3 float-left" alt="Sample Image">
                                     <a href="#" class="text-dark h3">TikTok May Make Changes to Distance Itself from China amid U.S.
                                         Pressure</a>
                                     <p><small>Officials from ByteDance, the Beijing-based tech startup that owns the short-form video
@@ -3534,8 +3539,8 @@
                             </div>
 
                             <div class="media border-top pt-3 pb-3">
-                                <img src="./assets/font/img/seoul-mayor-park-won-sun-may-2014.webp" class="mr-3" alt="Sample Image">
                                 <div class="media-body">
+                                    <img src="./assets/font/img/seoul-mayor-park-won.webp" class="mr-3 float-left" alt="Sample Image">
                                     <a href="#" class="text-dark h3">Seoul Mayor's Will Said 'Sorry to Everyone' Amid Sexual Harassment
                                         Probes</a>
                                     <p><small>The exact cause of the death of Seoul Mayor Park Won-sun remains under
@@ -3544,8 +3549,8 @@
                             </div>
 
                             <div class="media border-top pt-3 pb-3">
-                                <img src="./assets/font/img/who-owns-goya.webp" class="mr-3" alt="Sample Image">
                                 <div class="media-body">
+                                    <img src="./assets/font/img/who-owns-goya.webp" class="mr-3 float-left" alt="Sample Image">
                                     <a href="#" class="text-dark h3">Who Owns Goya Foods? Calls for #BoycottGoya Mount After CEO Praises
                                         Trump</a>
                                     <p><small>The pro-Trump family behind Goya Foods is worth an estimated $1.1 billion, and has the
@@ -3554,8 +3559,8 @@
                             </div>
 
                             <div class="media border-top pt-3 pb-3">
-                                <img src="./assets/font/img/sars-cov-2.webp" class="mr-3" alt="Sample Image">
                                 <div class="media-body">
+                                    <img src="./assets/font/img/sars-cov-2.webp" class="mr-3 float-left" alt="Sample Image">
                                     <a href="#" class="text-dark h3">SARS-CoV-2 Binds to Human Cells 1,000 Times Tighter Than Closest
                                         Relative</a>
                                     <p><small><q> At some point in the evolution of this virus, it seems to have picked up changes…which
@@ -3565,8 +3570,8 @@
                             </div>
 
                             <div class="media border-top pt-3 pb-3">
-                                <img src="./assets/font/img/jugdge-woman.webp" class="mr-3" alt="Sample Image">
                                 <div class="media-body">
+                                    <img src="./assets/font/img/jugdge-woman.webp" class="mr-3 float-left" alt="Sample Image">
                                     <a href="#" class="text-dark h3">Judge 'Will Rule Against' Meghan Markle on Friends Who Defended
                                         Her: Expert</a>
                                     <p><small>The Duchess of Sussex wants a judge to rule the names of five friends who defended her in
@@ -3618,6 +3623,9 @@
         
                     <!-- OPINION -->
                     <div class="bg-white">
+                        <div class="navbar navbar-expand-lg pb-0 m-0">
+                            <p class="navbar-brand">OPINION</p>
+                        </div>
         
                         <div class="navbar navbar-expand navbar-light border-bottom">
                             <div class="navbar-brand">
@@ -3893,34 +3901,31 @@
                     <div class="row">
                         <!--EDITOR'S PICK-->
 
-                            <div class="col-6 text-secondary position-relative mt-0">
-                                <div class="position-relative">
-                                    <a href="#"><img src="./assets/font/img/texas-rep.webp" class="img-fluid w-100" alt="Responsive image"></a>
-                                    <div class="country"><a href="#" class="text-danger img-anchor">U.S.</a></div>
-                                </div>
-                                <div class="position-relative pt-2 pb-2">
-                                    <a class="text-dark h3" href="#">Texas Republicans Rebuke Governor for Mask Mandate as COVID-19 Cases Spike</a>
-                                    <p class="text-muted w-100">
-                                        <small>Greg Abbott has faced criticism from members of his own party over the use of his executive powers to try and stem the state's surge in cases. </small>
-                                    </p>
-                                </div>
+                        <div class="col-3 text-secondary position-relative mt-0">
+                            <div class="position-relative">
+                                <a href="#"><img src="./assets/font/img/texas-rep.webp" class="img-fluid w-100" alt="Responsive image"></a>
+                                <div class="country"><a href="#" class="text-danger img-anchor">U.S.</a></div>
                             </div>
-
-                            <div class="col-6 text-secondary position-relative mt-0">
-                                <div class="position-relative">
-                                    <a href="#"><img src="./assets/font/img/policeman.webp" class="img-fluid w-100" alt="Responsive image"></a>
-                                    <div class="country"><a href="#" class="text-danger img-anchor">U.S.</a></div>
-                                </div>
-                                <div class="position-relative pt-2 pb-2">
-                                    <a class="text-dark h3" href="#">ICE Offering 'Citizens Academy' Course on Arresting Immigrants</a>
-                                    <p class="text-muted w-100"><small><q>Defensive tactics, firearms familiarization and targeted arrests</q> are among the training attendees will receive, according to a letter from Chicago ICE Field Office Director Robert Guadian.</small></p>
-                                </div>
+                            <div class="position-relative pt-2 pb-2">
+                                <a class="text-dark h3" href="#">Texas Republicans Rebuke Governor for Mask Mandate as COVID-19 Cases Spike</a>
+                                <p class="text-muted w-100">
+                                    <small>Greg Abbott has faced criticism from members of his own party over the use of his executive powers to try and stem the state's surge in cases. </small>
+                                </p>
                             </div>
+                        </div>
 
-                    </div>
-                    <div class="row">
+                        <div class="col-3 text-secondary position-relative mt-0">
+                            <div class="position-relative">
+                                <a href="#"><img src="./assets/font/img/policeman.webp" class="img-fluid w-100" alt="Responsive image"></a>
+                                <div class="country"><a href="#" class="text-danger img-anchor">U.S.</a></div>
+                            </div>
+                            <div class="position-relative pt-2 pb-2">
+                                <a class="text-dark h3" href="#">ICE Offering 'Citizens Academy' Course on Arresting Immigrants</a>
+                                <p class="text-muted w-100"><small><q>Defensive tactics, firearms familiarization and targeted arrests</q> are among the training attendees will receive, according to a letter from Chicago ICE Field Office Director Robert Guadian.</small></p>
+                            </div>
+                        </div>
 
-                        <div class="col-6 text-secondary position-relative mt-0">
+                        <div class="col-3 text-secondary position-relative mt-0">
                             <div class="position-relative">
                                 <a href="#"><img src="./assets/font/img/jack-dorsey.webp" class="img-fluid w-100" alt="Responsive image"></a>
                                 <div class="country"><a href="#" class="text-danger img-anchor">TECH & SCIENCE</a></div>
@@ -3931,7 +3936,7 @@
                             </div>
                         </div>
 
-                        <div class="col-6 text-secondary position-relative mt-0">
+                        <div class="col-3 text-secondary position-relative mt-0">
                             <div class="position-relative">
                                 <a href="#"><img src="./assets/font/img/school-library-china.webp" class="img-fluid w-100" alt="Responsive image"></a>
                                 <div class="country"><a href="#" class="text-danger img-anchor">WORLD</a></div>
@@ -3944,7 +3949,7 @@
                     </div>
                     <div class="row">
 
-                        <div class="col-6 text-secondary position-relative mt-0">
+                        <div class="col-3 text-secondary position-relative mt-0">
                             <div class="position-relative">
                                 <a href="#"><img src="./assets/font/img/michigan-governor-gretchen-whitmer.webp" class="img-fluid w-100" alt="Responsive image"></a>
                                 <div class="country"><a href="#" class="text-danger img-anchor">U.S.</a></div>
@@ -3957,7 +3962,7 @@
                             </div>
                         </div>
 
-                        <div class="col-6 text-secondary position-relative mt-0">
+                        <div class="col-3 text-secondary position-relative mt-0">
                             <div class="position-relative">
                                 <a href="#"><img src="./assets/font/img/sport-cuban-dallas-mavericks.webp" class="img-fluid w-100" alt="Responsive image"></a>
                                 <div class="country"><a href="#" class="text-danger img-anchor">SPORTS</a></div>
@@ -3967,10 +3972,8 @@
                                 <p class="text-muted w-100"><small> On Saturday, the rapper announced his intentions to run for office this year, but has not formally entered the race.</small></p>
                             </div>
                         </div>
-                    </div>
-                    <div class="row">
 
-                        <div class="col-6 text-secondary position-relative mt-0">
+                        <div class="col-3 text-secondary position-relative mt-0">
                             <div class="position-relative">
                                 <a href="#"><img src="./assets/font/img/restaurant-face-mask.webp" class="img-fluid w-100" alt="Responsive image"></a>
                                 <div class="country"><a href="#" class="text-danger img-anchor">U.S.</a></div>
@@ -3981,7 +3984,7 @@
                             </div>
                         </div>
 
-                        <div class="col-6 text-secondary position-relative mt-0">
+                        <div class="col-3 text-secondary position-relative mt-0">
                             <div class="position-relative">
                                 <a href="#"><img src="./assets/font/img/theme-park.webp" class="img-fluid w-100" alt="Responsive image"></a>
                                 <div class="country"><a href="#" class="text-danger img-anchor">NEWS</a></div>
@@ -4592,8 +4595,8 @@
                             <div class="container-fluid p-0 m-0">
                                 <h6 class="bg.light">MORE STORIES</h6>
                                 <div class="media border-top pt-3 pb-3">
-                                    <img src="./assets/font/img/covid-19-patients.webp" class="mr-3" alt="Sample Image">
                                     <div class="media-body">
+                                        <img src="./assets/font/img/covid-19-patients.webp" class="mr-3 float-left" alt="Sample Image">
                                         <a href="#" class="text-dark h3">Federal Disaster Medical Teams Deployed As Texas Coronavirus Cases
                                             Surge</a>
                                         <p><small>Hospitalizations in Texas climbed to 9,869 on Thursday, the highest level recorded in the
@@ -4602,16 +4605,16 @@
                                 </div>
     
                                 <div class="media border-top pt-3 pb-3">
-                                    <img src="./assets/font/img/coronavirus-food.webp" class="mr-3" alt="Sample Image">
                                     <div class="media-body">
+                                        <img src="./assets/font/img/coronavirus-food.webp" class="mr-3 float-left" alt="Sample Image">
                                         <a href="#" class="text-dark h3">Coronavirus Seems to Trick Antibodies into Attacking Brain</a>
                                         <p><small>The small study involved 11 COVID-19 patients in Germany.</small></p>
                                     </div>
                                 </div>
     
                                 <div class="media border-top pt-3 pb-3">
-                                    <img src="./assets/font/img/minneapolis-floyed-protest.webp" class="mr-3" alt="Sample Image">
                                     <div class="media-body">
+                                        <img src="./assets/font/img/minneapolis-floyed-protest.webp" class="mr-3 float-left" alt="Sample Image">
                                         <a href="#" class="text-dark h3">Minneapolis Police Want 'Duty Disability' for PTSD Over Floyd
                                             Protests</a>
                                         <p><small>Around 150 officers would be able to claim 60 percent of their average salary for 20 years
@@ -4620,8 +4623,8 @@
                                 </div>
     
                                 <div class="media border-top pt-3 pb-3">
-                                    <img src="./assets/font/img/spotify-phones.webp" class="mr-3" alt="Sample Image">
                                     <div class="media-body">
+                                        <img src="./assets/font/img/spotify-phones.webp" class="mr-3 float-left" alt="Sample Image">
                                         <a href="#" class="text-dark h3">Is Spotify Down? Streaming App Crashing for Many Users</a>
                                         <p><small>Thousands have reported that the app for the iPhone is crashing, but there are other ways
                                                 to keep streaming from Spotify.</small></p>
@@ -4629,8 +4632,8 @@
                                 </div>
     
                                 <div class="media border-top pt-3 pb-3">
-                                    <img src="./assets/font/img/vegas-gov.webp" class="mr-3" alt="Sample Image">
                                     <div class="media-body">
+                                        <img src="./assets/font/img/vegas-gov.webp" class="mr-3 float-left" alt="Sample Image">
                                         <a href="#" class="text-dark h3">Nevada Governor Shutters Las Vegas, Reno Bars Over COVID-19
                                             Surge</a>
                                         <p><small>Gov. Steve Sisolak said half of the reopened bars in the state were not complying with
@@ -4639,8 +4642,8 @@
                                 </div>
     
                                 <div class="media border-top pt-3 pb-3">
-                                    <img src="./assets/font/img/3million-syrians.webp" class="mr-3" alt="Sample Image">
                                     <div class="media-body">
+                                        <img src="./assets/font/img/3million-syrians.webp" class="mr-3 float-left" alt="Sample Image">
                                         <a href="#" class="text-dark h3">3 Million Syrians Will Lose Aid as First COVID-19 Case Is Reported
                                             in Idlib</a>
                                         <p><small>Twice this week a U.N. resolution which would have ensured cross-border cooperation until
@@ -4649,8 +4652,8 @@
                                 </div>
     
                                 <div class="media border-top pt-3 pb-3">
-                                    <img src="./assets/font/img/tiktok-changes.webp" class="mr-3" alt="Sample Image">
                                     <div class="media-body">
+                                        <img src="./assets/font/img/tiktok-changes.webp" class="mr-3 float-left" alt="Sample Image">
                                         <a href="#" class="text-dark h3">TikTok May Make Changes to Distance Itself from China amid U.S.
                                             Pressure</a>
                                         <p><small>Officials from ByteDance, the Beijing-based tech startup that owns the short-form video
@@ -4659,8 +4662,8 @@
                                 </div>
     
                                 <div class="media border-top pt-3 pb-3">
-                                    <img src="./assets/font/img/seoul-mayor-park-won-sun-may-2014.webp" class="mr-3" alt="Sample Image">
                                     <div class="media-body">
+                                        <img src="./assets/font/img/seoul-mayor-park-won.webp" class="mr-3 float-left" alt="Sample Image">
                                         <a href="#" class="text-dark h3">Seoul Mayor's Will Said 'Sorry to Everyone' Amid Sexual Harassment
                                             Probes</a>
                                         <p><small>The exact cause of the death of Seoul Mayor Park Won-sun remains under
@@ -4669,8 +4672,8 @@
                                 </div>
     
                                 <div class="media border-top pt-3 pb-3">
-                                    <img src="./assets/font/img/who-owns-goya.webp" class="mr-3" alt="Sample Image">
                                     <div class="media-body">
+                                        <img src="./assets/font/img/who-owns-goya.webp" class="mr-3 float-left" alt="Sample Image">
                                         <a href="#" class="text-dark h3">Who Owns Goya Foods? Calls for #BoycottGoya Mount After CEO Praises
                                             Trump</a>
                                         <p><small>The pro-Trump family behind Goya Foods is worth an estimated $1.1 billion, and has the
@@ -4679,8 +4682,8 @@
                                 </div>
     
                                 <div class="media border-top pt-3 pb-3">
-                                    <img src="./assets/font/img/sars-cov-2.webp" class="mr-3" alt="Sample Image">
                                     <div class="media-body">
+                                        <img src="./assets/font/img/sars-cov-2.webp" class="mr-3 float-left" alt="Sample Image">
                                         <a href="#" class="text-dark h3">SARS-CoV-2 Binds to Human Cells 1,000 Times Tighter Than Closest
                                             Relative</a>
                                         <p><small><q> At some point in the evolution of this virus, it seems to have picked up changes…which
@@ -4690,8 +4693,8 @@
                                 </div>
     
                                 <div class="media border-top pt-3 pb-3">
-                                    <img src="./assets/font/img/jugdge-woman.webp" class="mr-3" alt="Sample Image">
                                     <div class="media-body">
+                                        <img src="./assets/font/img/jugdge-woman.webp" class="mr-3 float-left" alt="Sample Image">
                                         <a href="#" class="text-dark h3">Judge 'Will Rule Against' Meghan Markle on Friends Who Defended
                                             Her: Expert</a>
                                         <p><small>The Duchess of Sussex wants a judge to rule the names of five friends who defended her in
@@ -4743,6 +4746,9 @@
             
                         <!-- OPINION -->
                         <div class="bg-white">
+                            <div class="navbar navbar-expand-lg pb-0 m-0">
+                                <p class="navbar-brand">OPINION</p>
+                            </div>
             
                             <div class="navbar navbar-expand navbar-light border-bottom">
                                 <div class="navbar-brand">
@@ -5018,7 +5024,7 @@
                         <div class="row">
                             <!--EDITOR'S PICK-->
     
-                                <div class="col-6 text-secondary position-relative mt-0">
+                                <div class="col-3 text-secondary position-relative mt-0">
                                     <div class="position-relative">
                                         <a href="#"><img src="./assets/font/img/texas-rep.webp" class="img-fluid w-100" alt="Responsive image"></a>
                                         <div class="country"><a href="#" class="text-danger img-anchor">U.S.</a></div>
@@ -5031,7 +5037,7 @@
                                     </div>
                                 </div>
     
-                                <div class="col-6 text-secondary position-relative mt-0">
+                                <div class="col-3 text-secondary position-relative mt-0">
                                     <div class="position-relative">
                                         <a href="#"><img src="./assets/font/img/policeman.webp" class="img-fluid w-100" alt="Responsive image"></a>
                                         <div class="country"><a href="#" class="text-danger img-anchor">U.S.</a></div>
@@ -5041,35 +5047,33 @@
                                         <p class="text-muted w-100"><small><q>Defensive tactics, firearms familiarization and targeted arrests</q> are among the training attendees will receive, according to a letter from Chicago ICE Field Office Director Robert Guadian.</small></p>
                                     </div>
                                 </div>
+
+                                <div class="col-3 text-secondary position-relative mt-0">
+                                    <div class="position-relative">
+                                        <a href="#"><img src="./assets/font/img/jack-dorsey.webp" class="img-fluid w-100" alt="Responsive image"></a>
+                                        <div class="country"><a href="#" class="text-danger img-anchor">TECH & SCIENCE</a></div>
+                                    </div>
+                                    <div class="position-relative pt-2 pb-2">
+                                        <a class="text-dark h3" href="#">Twitter CEO to Fund Universal Basic Income Experiment in These U.S. Cities</a>
+                                        <p class="text-muted w-100"><small>The billionaire co-founder of the social networking giant announced on Thursday that he was investing the funds into the Mayors for a Guaranteed Income, a universal basic income project.</small></p>
+                                    </div>
+                                </div>
+        
+                                <div class="col-3 text-secondary position-relative mt-0">
+                                    <div class="position-relative">
+                                        <a href="#"><img src="./assets/font/img/school-library-china.webp" class="img-fluid w-100" alt="Responsive image"></a>
+                                        <div class="country"><a href="#" class="text-danger img-anchor">WORLD</a></div>
+                                    </div>
+                                    <div class="position-relative pt-2 pb-2">
+                                        <a class="text-dark h3" href="#">China Removes 'Illegal' Library Books Nationwide Amid Push for Patriotism</a>
+                                        <p class="text-muted w-100"><small>Teachers in China were instructed to remove books featuring "illegal" content from school libraries and send lists of the offending titles to top education officials for review.</small></p>
+                                    </div>
+                                </div>
     
                         </div>
                         <div class="row">
     
-                            <div class="col-6 text-secondary position-relative mt-0">
-                                <div class="position-relative">
-                                    <a href="#"><img src="./assets/font/img/jack-dorsey.webp" class="img-fluid w-100" alt="Responsive image"></a>
-                                    <div class="country"><a href="#" class="text-danger img-anchor">TECH & SCIENCE</a></div>
-                                </div>
-                                <div class="position-relative pt-2 pb-2">
-                                    <a class="text-dark h3" href="#">Twitter CEO to Fund Universal Basic Income Experiment in These U.S. Cities</a>
-                                    <p class="text-muted w-100"><small>The billionaire co-founder of the social networking giant announced on Thursday that he was investing the funds into the Mayors for a Guaranteed Income, a universal basic income project.</small></p>
-                                </div>
-                            </div>
-    
-                            <div class="col-6 text-secondary position-relative mt-0">
-                                <div class="position-relative">
-                                    <a href="#"><img src="./assets/font/img/school-library-china.webp" class="img-fluid w-100" alt="Responsive image"></a>
-                                    <div class="country"><a href="#" class="text-danger img-anchor">WORLD</a></div>
-                                </div>
-                                <div class="position-relative pt-2 pb-2">
-                                    <a class="text-dark h3" href="#">China Removes 'Illegal' Library Books Nationwide Amid Push for Patriotism</a>
-                                    <p class="text-muted w-100"><small>Teachers in China were instructed to remove books featuring "illegal" content from school libraries and send lists of the offending titles to top education officials for review.</small></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-    
-                            <div class="col-6 text-secondary position-relative mt-0">
+                            <div class="col-3 text-secondary position-relative mt-0">
                                 <div class="position-relative">
                                     <a href="#"><img src="./assets/font/img/michigan-governor-gretchen-whitmer.webp" class="img-fluid w-100" alt="Responsive image"></a>
                                     <div class="country"><a href="#" class="text-danger img-anchor">U.S.</a></div>
@@ -5082,7 +5086,7 @@
                                 </div>
                             </div>
     
-                            <div class="col-6 text-secondary position-relative mt-0">
+                            <div class="col-3 text-secondary position-relative mt-0">
                                 <div class="position-relative">
                                     <a href="#"><img src="./assets/font/img/sport-cuban-dallas-mavericks.webp" class="img-fluid w-100" alt="Responsive image"></a>
                                     <div class="country"><a href="#" class="text-danger img-anchor">SPORTS</a></div>
@@ -5092,10 +5096,8 @@
                                     <p class="text-muted w-100"><small> On Saturday, the rapper announced his intentions to run for office this year, but has not formally entered the race.</small></p>
                                 </div>
                             </div>
-                        </div>
-                        <div class="row">
     
-                            <div class="col-6 text-secondary position-relative mt-0">
+                            <div class="col-3 text-secondary position-relative mt-0">
                                 <div class="position-relative">
                                     <a href="#"><img src="./assets/font/img/restaurant-face-mask.webp" class="img-fluid w-100" alt="Responsive image"></a>
                                     <div class="country"><a href="#" class="text-danger img-anchor">U.S.</a></div>
@@ -5106,7 +5108,7 @@
                                 </div>
                             </div>
     
-                            <div class="col-6 text-secondary position-relative mt-0">
+                            <div class="col-3 text-secondary position-relative mt-0">
                                 <div class="position-relative">
                                     <a href="#"><img src="./assets/font/img/theme-park.webp" class="img-fluid w-100" alt="Responsive image"></a>
                                     <div class="country"><a href="#" class="text-danger img-anchor">NEWS</a></div>
@@ -5509,11 +5511,25 @@
 
         <!--NEWSWEEK-->
         <div class="pt-1 bg-white ">
-            <div class="border-bottom">
+            <div class="border-bottom d-block d-md-none">
                 <img src="assets/font/img/Newsweek-Logo.jpg" alt="Newsweek-Logo" class="newsweek-logo">
                 <p class=" ml-3 text-secondary">© 2020 Newsweek</p>
 
                 <nav class="nav pl-2 position-relative nav-pos">
+                    <a href="#" class="nav-item nav-link p-1"><img src="./assets/font/img/facebook-img.png" alt="facebook-img"></a>
+                    <a href="#" class="nav-item nav-link p-1"> <img src="./assets/font/img/twitter-icon.png" alt="twitter-icon"></a>
+                    <a href="#" class="nav-item nav-link p-1"> <img src="./assets/font/img/instagram-img.png" alt="instagram-img"></a>
+                    <a href="#" class="nav-item nav-link p-1"><img src="./assets/font/img/t-icon.png" alt="t-icon"></a>
+                    <a href="#" class="nav-item nav-link p-1"><img src="./assets/font/img/in-icon.png" alt="in-icon"></a>
+                </nav>
+            </div>
+            <div class="border-bottom d-none d-md-flex justify-content-between">
+                <div class="d-flex justify-content-start align-items-end pb-0">
+                    <img src="assets/font/img/Newsweek-Logo.jpg" alt="Newsweek-Logo" class="newsweek-logo">
+                    <p class=" ml-2 mb-2 text-secondary">© 2020 Newsweek</p>
+                </div>
+
+                <nav class="nav pl-2 position-relative nav-pos d-flex align-items-end">
                     <a href="#" class="nav-item nav-link p-1"><img src="./assets/font/img/facebook-img.png" alt="facebook-img"></a>
                     <a href="#" class="nav-item nav-link p-1"> <img src="./assets/font/img/twitter-icon.png" alt="twitter-icon"></a>
                     <a href="#" class="nav-item nav-link p-1"> <img src="./assets/font/img/instagram-img.png" alt="instagram-img"></a>

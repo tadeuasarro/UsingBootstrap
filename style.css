@@ -11,6 +11,10 @@ main {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
+body {
+  min-width: 310px;
+}
+
 .roboto {
   font-family: 'Roboto Condensed', sans-serif;
 }
@@ -20,7 +24,7 @@ main {
 }
 
 .bg-red {
-  background-color: #ff2210;
+  background-color: #f72210;
 }
 
 .card-body a {
@@ -29,6 +33,10 @@ main {
 
 .h-5 {
   height: 5px;
+}
+
+.h-7 {
+  height: 30px;
 }
 
 .h-10 {
@@ -41,6 +49,14 @@ main {
 
 .h-20 {
   height: 100px;
+}
+
+.w-33 {
+  width: 33%;
+}
+
+.w-60 {
+  width: 60%;
 }
 
 .form-width-edit {
@@ -56,7 +72,7 @@ main {
 }
 
 .text-dark {
-  font-family: sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   font-size: 0.78rem;
   font-weight: 900;
 }
@@ -148,4 +164,17 @@ main {
 
 .newsweek-logo {
   width: 270px;
+}
+
+.subscribe-navbtn {
+  font-size: 12px;
+  font-weight: bolder;
+}
+
+.hide-300px {
+  display: flex;
+}
+
+.navbar-edit-size {
+  font-size: 18px;
 }

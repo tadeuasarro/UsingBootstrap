@@ -53,8 +53,32 @@
   }
 }
 
-@media (max-width: 444px) {
-  .edited-xs-navbar-display .navbar-text {
-    display: none;
+@media (max-width: 407px) {
+  .subscribe-navbtn {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 319px) {
+  .subscribe-navbtn {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 1202px) {
+  .navbar-edit-size {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1124px) {
+  .navbar-edit-size {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1043px) {
+  .navbar-edit-size {
+    font-size: 12px;
   }
 }
