@@ -90,6 +90,8 @@ body {
   align-items: baseline;
   justify-content: center;
   padding: 5px;
+  height: 35px;
+  width: 35px;
   font-weight: bold;
   border-radius: 50%;
   margin-left: 50%;
