@@ -1,5 +1,182 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
+}
+
+header {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+main {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+  min-width: 310px;
+}
+
+.roboto {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.bg-main {
+  background-color: #f4f5f7;
+}
+
+.bg-red {
+  background-color: #f72210;
+}
+
+.card-body a {
+  text-decoration: none;
+}
+
+.h-5 {
+  height: 5px;
+}
+
+.h-7 {
+  height: 30px;
+}
+
+.h-10 {
+  height: 55px;
+}
+
+.h-15 {
+  height: 75px;
+}
+
+.h-20 {
+  height: 100px;
+}
+
+.w-33 {
+  width: 33%;
+}
+
+.w-60 {
+  width: 60%;
+}
+
+.form-width-edit {
+  width: 100px;
+}
+
+.img-anchor {
+  background-color: #f0eaea;
+  bottom: 0;
+  font-weight: 900;
+  padding: 1% 2%;
+  position: absolute;
+}
+
+.text-dark {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 900;
+}
+
+.std-round-img {
+  height: 67.5px;
+  width: 67.5px;
+}
+
+.vs-sign {
+  background-color: black;
+  color: white;
+  position: absolute;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  padding: 5px;
+  height: 35px;
+  width: 35px;
+  font-weight: bold;
+  border-radius: 50%;
+  margin-left: 50%;
+  margin-top: -15px;
+}
+
+.newsweek-div img {
+  width: 30px;
+  height: 30px;
+}
+
+.newsweek-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.maga {
+  font-size: 1.1rem;
+  padding: 5px 10px;
+  font-weight: 900;
+}
+
+.one {
+  height: 26px;
+  width: 60px;
+}
+
+.two {
+  height: 40px;
+}
+
+.three {
+  width: 90px;
+}
+
+.mark {
+  width: 95px;
+}
+
+.subscription-image {
+  align-self: center;
+  position: relative;
+  width: 45%;
+  z-index: 1;
+}
+
+.edited-align-bottom {
+  bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.edited-text {
+  align-self: center;
+  position: relative;
+}
+
+.text-md {
+  position: relative;
+  z-index: 2;
+}
+
+.text-bott {
+  text-align: center;
+}
+
+.nav-pos {
+  bottom: 10px;
+}
+
+.newsweek-logo {
+  width: 270px;
+}
+
+.subscribe-navbtn {
+  font-size: 12px;
+  font-weight: bolder;
+}
+
+.hide-300px {
+  display: flex;
+}
+
+.navbar-edit-size {
+  font-size: 18px;
 }
