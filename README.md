@@ -29,7 +29,7 @@ In this task we were required to create a clone of the Newsweek website using th
 
 - Github: [@AdesojiCodeMaster](https://github.com/AdesojiCodeMaster)
 - Twitter: [@codemas22665735](https://twitter.com/codemas22665735)
-- Linkedin: [linkedin](https://www.linkedin.com/in/adesoji-adewumi-7752aba5)
+- Linkedin: [linkedin](https://www.linkedin.com/in/adesoji-adewumi)
 
 ## 🤝 Contributing
 
